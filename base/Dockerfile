@@ -6,11 +6,11 @@ RUN conda install --yes \
     cytoolz \
     dask==2.13.0 \
     lz4 \
+    networkx==2.2 \
     nomkl \
     numpy==1.18.1 \
     pandas==1.0.1 \
     tini==0.18.0 \
-    networkx==2.2 \
     && conda clean -tipsy \
     && find /opt/conda/ -type f,l -name '*.a' -delete \
     && find /opt/conda/ -type f,l -name '*.pyc' -delete \
