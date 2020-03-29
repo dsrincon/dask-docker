@@ -15,6 +15,7 @@ RUN conda install --yes \
     cytoolz \
     dask==2.13.0 \
     lz4 \
+    networkx==2.2 \
     nomkl \
     numpy==1.18.1 \
     pandas==1.0.1 \
